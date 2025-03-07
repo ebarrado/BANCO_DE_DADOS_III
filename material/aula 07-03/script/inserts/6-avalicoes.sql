@@ -1,3 +1,6 @@
+use testebd;
+
+INSERT INTO avaliacoes(avaliacao_id, cliente_id, hospedagem_id, nota, comentario) VALUES
 ('1', '1', '8450', '2', 'Horr�vel localiza��o.'),
 ('10', '10', '198', '2', 'Horr�vel atendimento.'),
 ('100', '100', '4019', '2', 'P�ssima infraestrutura.'),

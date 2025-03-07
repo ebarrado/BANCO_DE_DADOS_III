@@ -1,3 +1,5 @@
+use db_meuportoseguro;
+INSERT INTO enderecos (endereco_id, rua, numero, bairro, cidade, estado, cep) VALUES 
  ('1', 'Lagoa de Teixeira', '72', 'Tirol', 'Moraes', 'SP', '87362-365'),
  ('2', 'Rua Nicole Barbosa', '65', 'Funcion�rios', 'Costela', 'RO', '99644-164'),
  ('3', 'Rua de da Costa', '465', 'Itaipu', 'Monteiro', 'CE', '30053-759'),

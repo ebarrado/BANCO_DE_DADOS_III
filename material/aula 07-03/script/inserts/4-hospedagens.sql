@@ -1,3 +1,6 @@
+use testebd;
+
+INSERT INTO hospedagens(hospedagem_id, tipo, endereco_id, proprietario_id, ativo) VALUES
 ('1', 'casa', '1', '1', '0'),
 ('2', 'casa', '2', '2', '1'),
 ('3', 'hotel', '3', '3', '1'),

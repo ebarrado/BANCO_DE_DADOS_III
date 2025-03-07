@@ -1,3 +1,5 @@
+use testebd;
+INSERT INTO proprietarios (proprietario_id, nome, cpf_cnpj, contato) VALUES
 ('1', 'Luna Fernandes', '408.153.796-84', 'luna_537@dominio.com'),
 ('2', 'B�rbara Melo', '389.106.427-69', 'b�rbara_228@dominio.com'),
 ('3', 'Maria Fernanda Oliveira', '759.230.468-65', 'maria_858@dominio.com'),

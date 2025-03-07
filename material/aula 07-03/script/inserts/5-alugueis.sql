@@ -1,3 +1,7 @@
+use testebd;
+
+
+INSERT INTO alugueis(aluguel_id, cliente_id, hospedagem_id, data_inicio, data_fim, preco_total) VALUES
 ('1', '1', '8450', '2023-07-15', '2023-07-20', '3240'),
 ('2', '2', '9231', '2023-11-16', '2023-11-23', '6762'),
 ('3', '3', '6955', '2023-03-21', '2023-03-28', '707'),

@@ -1,3 +1,5 @@
+use testebd;
+INSERT INTO clientes (cliente_id, nome, cpf, contato) VALUES 
 ('1', 'Jo�o Miguel Sales', '658.190.237-30', 'jo�o_352@dominio.com'),
 ('2', 'Gustavo Carvalho', '134.975.082-41', 'gustavo_802@dominio.com'),
 ('3', 'Maria Eduarda Correia', '298.460.513-60', 'maria_510@dominio.com'),
