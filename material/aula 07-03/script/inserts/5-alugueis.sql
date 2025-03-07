@@ -1,5 +1,4 @@
-use testebd;
-
+use db_meuportoseguro;
 
 INSERT INTO alugueis(aluguel_id, cliente_id, hospedagem_id, data_inicio, data_fim, preco_total) VALUES
 ('1', '1', '8450', '2023-07-15', '2023-07-20', '3240'),

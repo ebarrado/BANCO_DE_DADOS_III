@@ -1,4 +1,4 @@
-use testebd;
+use db_meuportoseguro;
 
 INSERT INTO avaliacoes(avaliacao_id, cliente_id, hospedagem_id, nota, comentario) VALUES
 ('1', '1', '8450', '2', 'Horr�vel localiza��o.'),
