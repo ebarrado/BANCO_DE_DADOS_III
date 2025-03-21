@@ -15,6 +15,7 @@
 ![alt text](img/image-2.png)
 
 Agora temos que configurar:
+
 - Grupo de Recursos: aulabd
 - Nome servidor:  bdserversobrenome
 - Região: East US
@@ -24,6 +25,7 @@ Agora temos que configurar:
 ![alt text](img/image-3.png)
 
 * Autenticação: MySQL
+ 
     * crie um usuário e senha
 
     ![alt text](img/image-4.png)
