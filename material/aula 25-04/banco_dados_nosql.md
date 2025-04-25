@@ -39,7 +39,7 @@ Bancos de dados NoSQL (Not Only SQL) são sistemas de gerenciamento de dados pro
 
 ## Tipos de Bancos de Dados NoSQL e Uso na Microsoft Azure
 
-### Tipos de Bancos de Dados NoSQL
+### Bancos de Dados NoSQL
 
 1. **Chave-Valor**  
     Armazenam dados como pares de chave e valor, sendo ideais para casos de uso simples, como cache e sessões de usuário.  
