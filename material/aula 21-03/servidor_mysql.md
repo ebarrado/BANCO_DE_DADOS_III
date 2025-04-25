@@ -18,7 +18,7 @@ Agora temos que configurar:
 
 - Grupo de Recursos: aulabd
 - Nome servidor:  bdserversobrenome
-- Região: East US
+- Região: Brasil Sul
 - Versão: 8.0
 - Tipo de Carga: Para bancos de dados de pequeno ou médio porte
 
@@ -39,6 +39,7 @@ Agora temos que configurar:
  ![alt text](img/image-5.png)
 
  * Por fim, clique em Revisar e Criar e depois em Criar
+    - **caso apresente erro, volte ao inicio do processo e altere para regiões Israel, Espanha Central, Central US ou outra**
 
  ![alt text](img/image-6.png)
 
@@ -167,7 +168,7 @@ INSERT INTO itens_pedido (pedido_id, produto_id, quantidade, preco_unitario) VAL
 5️⃣ Listar os pedidos com detalhes do cliente
 
 ````
-    p.id AS pedido_id,
+   SELECT p.id AS pedido_id,
     c.nome AS cliente,
     p.total,
     p.status,
@@ -223,10 +224,22 @@ LIMIT 1;
 ````
 
 🔟 Exibir a média de preço dos produtos em estoque
-sql
-Copiar
-Editar
+
+````
 SELECT AVG(preco) AS media_preco_produtos FROM produtos WHERE estoque > 0;
+````
+
+- Após realizar todos os teste, volte ao Portal do Azure e clique em Página Inicial - Grupo de Recursos
+ - Clique no grupo de recurso criado e depois em Excluir Grupo de Recurso
+ - Copie o nome do grupo de recurso e cole na caixa correspondente - e novamente em Excluir 
+ - Aguarde, visualize se o grupo de recursos foi excluido
+ - Se tiver mais de 1 grupo de recursos, repita o processo para cada um.
+  - **Excluir evita gastos desnecessários.**
+
+ ![alt text](img/excluir_grupo_recurso.png)
+
+
+
 
 # Referências
 - [O que é o Banco de Dados do Azure para MySQL - Servidor Flexível?](https://learn.microsoft.com/pt-br/azure/mysql/flexible-server/overview)
