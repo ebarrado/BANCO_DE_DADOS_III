@@ -1,4 +1,4 @@
-# 05 - Criar armazenamento de blob (5 min)
+# Criar armazenamento de blob (5 min)
 
 Neste exemplo vamos criar uma conta de armazenamento e trabalhar com arquivos de armazenamento de blobs.
 
